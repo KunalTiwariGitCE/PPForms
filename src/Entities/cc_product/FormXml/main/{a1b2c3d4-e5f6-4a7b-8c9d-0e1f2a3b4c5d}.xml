@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{c3d4e5f6-a7b8-4c9d-0e1f-2a3b4c5d6e7f}">
+                  <labels>
+                    <label description="Product Information" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{d4e5f6a7-b8c9-4d0e-1f2a-3b4c5d6e7f8a}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="cc_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cc_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e5f6a7b8-c9d0-4e1f-2a3b-4c5d6e7f8a9b}">
+                        <labels>
+                          <label description="Price" languagecode="1033" />
+                        </labels>
+                        <control id="cc_price" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="cc_price" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f6a7b8c9-d0e1-4f2a-3b4c-5d6e7f8a9b0c}">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="cc_description" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cc_description" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a7b8c9d0-e1f2-4a3b-4c5d-6e7f8a9b0c1d}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Product Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Main form for Product entity" languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

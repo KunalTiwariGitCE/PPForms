@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AppModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <appmoduleid>{b5c6d7e8-f9a0-4b1c-8d2e-3f4a5b6c7d8e}</appmoduleid>
+  <LocalizedNames>
+    <LocalizedName description="Product Management" languagecode="1033" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description description="Model-driven app for managing products" languagecode="1033" />
+  </Descriptions>
+  <UniqueName>cc_ProductManagementApp</UniqueName>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <WebResourceId>953b9fac-1e5e-e611-80d6-00155ded156f</WebResourceId>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <FormFactor>1</FormFactor>
+  <ClientType>4</ClientType>
+  <NavigationType>0</NavigationType>
+  <AppModuleComponents>
+    <AppModuleComponent>
+      <type>1</type>
+      <schemaName>cc_product</schemaName>
+    </AppModuleComponent>
+  </AppModuleComponents>
+  <OptimizedFor></OptimizedFor>
+  <IsDefault>false</IsDefault>
+  <IsFeatured>false</IsFeatured>
+  <IsCustomizable>1</IsCustomizable>
+</AppModule>

@@ -1,0 +1,34 @@
+# Power Platform Solution Files
+*.zip
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.dll
+*.pdb
+
+# Temporary files
+.vs/
+.vscode/
+*.tmp
+*.bak
+*.swp
+*~
+
+# Mac
+.DS_Store
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Bb]in/
+[Oo]bj/
+
+# Solution packages (optional - uncomment if you don't want to track them)
+# *.zip
+
+# Managed solution files (optional)
+# *_managed.xml
